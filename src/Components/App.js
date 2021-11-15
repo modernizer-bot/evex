@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import HomePage from "./Home/HomePage";
-import TopMenu from "./Common/Header";
-import AboutUs from "./About/About";
-import PageNotFound from "./PageNotFound";
-import SignUp from "./Users/Index";
+import HomePage from "./Home/HomePage.js";
+import TopMenu from "./Common/Header.js";
+import AboutUs from "./About/About.js";
+import PageNotFound from "./PageNotFound.js";
+import SignUp from "./Users/Index.js";
 
 const App = () => {
   return (

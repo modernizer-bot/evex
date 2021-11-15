@@ -1,4 +1,4 @@
-import * as actionTypes from "../actionTypes";
+import * as actionTypes from "../actionTypes.js";
 
 const initialState = [];
 export default function userReducer(state = initialState, action) {

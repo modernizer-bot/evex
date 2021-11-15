@@ -1,5 +1,5 @@
-import * as actionTypes from "../actionTypes";
-import initialState from "./initialState";
+import * as actionTypes from "../actionTypes.js";
+import initialState from "./initialState.js";
 
 function actionTypeEndsInSuccess(type) {
   return type.substring(type.length - 8) === "_SUCCESS";

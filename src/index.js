@@ -1,7 +1,7 @@
 import React from "react";
 import RenderDOM from "react-dom";
-import App from "./Components/App";
-import configureStore from "./Redux/configureStore";
+import App from "./Components/App.js";
+import configureStore from "./Redux/configureStore.js";
 import { Provider as ReduxProvider } from "react-redux";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";

@@ -1,6 +1,6 @@
-import * as actionTypes from "../actionTypes";
-import * as userApi from "../../api/usersApi";
-import { beginApiCall } from "./apiStatusActions";
+import * as actionTypes from "../actionTypes.js";
+import * as userApi from "../../api/usersApi.js";
+import { beginApiCall } from "./apiStatusActions.js";
 
 export function loadUsersSuccess(users) {
   return {

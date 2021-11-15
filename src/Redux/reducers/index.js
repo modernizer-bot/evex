@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
-import users from "./userReducer";
-import apiCallStatusReducer from "./apiStatusReducer";
+import users from "./userReducer.js";
+import apiCallStatusReducer from "./apiStatusReducer.js";
 
 const rootReducer = combineReducers({
   users,

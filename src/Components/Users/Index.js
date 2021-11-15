@@ -1,8 +1,8 @@
 import React, { useCallback, useEffect } from "react";
 import { connect } from "react-redux";
 import { bindActionCreators } from "redux";
-import * as userActions from "../../Redux/actions/userActions";
-import Spinner from "../Common/Spinner";
+import * as userActions from "../../Redux/actions/userActions.js";
+import Spinner from "../Common/Spinner.js";
 import PropTypes from "prop-types";
 
 const IndexPage = ({ userList, loading, actions }) => {

@@ -1,4 +1,4 @@
-import { handleResponse, handleError } from "./apiUtils";
+import { handleResponse, handleError } from "./apiUtils.js";
 const baseUrl = `${process.env.API_URL}/users/`;
 
 export function getUsers() {
