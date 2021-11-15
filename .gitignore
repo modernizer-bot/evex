@@ -1,3 +1,13 @@
+#Runtime data
+pids
+*.pids
+*.seed
+
+#
+lib-coverage
+#
+.lock-wscript
+
 .DS_STORE
 node_modules
 scripts/flow/*/.flowconfig
